@@ -1,4 +1,4 @@
-package com.project_name.pages;
+package com.fleet.pages;
 
 
 import com.fleet.utilities.Driver;
