@@ -11,6 +11,7 @@ Feature:Users should be able to login
     Given the user logged in with username as "<username>" and password as "<password>"
     When user click vehicles from fleet menu GT
     Then user can see all the cars unselected GT
+
     Examples:
       | username        | password    |
       | storemanager51  | UserUser123 |
@@ -23,6 +24,7 @@ Feature:Users should be able to login
     When user click vehicles from fleet menu GT
     Then user select fist check box GT
     Then user can see all the cars selected GT
+
     Examples:
       | username        | password    |
       | storemanager51  | UserUser123 |
@@ -34,6 +36,7 @@ Feature:Users should be able to login
     Given the user logged in with username as "<username>" and password as "<password>"
     When user click vehicles from fleet menu GT
     And verify user can select any random car from the table GT
+
     Examples:
       | username        | password    |
       | storemanager51  | UserUser123 |

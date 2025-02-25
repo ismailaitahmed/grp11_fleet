@@ -13,7 +13,6 @@ public class US07_MainPage {
 
     }
 
-
     @FindBy(xpath = "(//*[@class='title title-level-1'])[2]")
     public WebElement Fleet;
 

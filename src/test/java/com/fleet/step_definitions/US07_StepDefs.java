@@ -21,7 +21,6 @@ public class US07_StepDefs {
     @When("user click vehicles from fleet menu GT")
     public void user_click_vehicles_from_fleet_menu_gt() throws InterruptedException {
 
-
         mainPage.Fleet.click();
 
         Thread.sleep(1000);
