@@ -15,7 +15,6 @@ import java.util.Set;
 
 public class BrowserUtils {
 
-
     /*
     This method will accept int (in seconds)
     and execute Thread.sleep method for given duration
@@ -105,6 +104,7 @@ public class BrowserUtils {
         return actualMonth_as_STRING;
 
     }
+
 
     public static void clickRadioButton(List<WebElement> radioButtons, String attributeValue){
         for (WebElement each : radioButtons) {
